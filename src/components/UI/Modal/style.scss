@@ -1,0 +1,26 @@
+@import '../../../assets/scss/partials/vars';
+
+// z-index is higher than <Backdrop /> component.
+#modal-wrapper {
+    z-index: 3;
+    position: absolute;
+    transition: all 0.8s linear;
+    
+    .card {
+        z-index: 3;
+        position: absolute;
+        top: 100px;
+        left: calc(50vw - 200px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        height: 400px;
+        width: 400px;
+        text-align: center;
+        background: #2488af;
+        opacity: 0.9;
+        
+    }
+
+}
